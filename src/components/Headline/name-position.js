@@ -1,13 +1,13 @@
 import React from 'react'
 
-const NameTitle = () => {
+const Headline = () => {
   return (
     <div>
-      <div className="NameTitle-Name">Dillon Craw</div>
-      <div className="NameTitle-Underline"></div>
-      <div className="NameTitle-Title">Full Stack Web Developer</div>
+      <div className="Headline-Name">Dillon Craw</div>
+      <div className="Headline-Underline"></div>
+      <div className="Headline-Title">Full Stack Web Developer</div>
     </div>
   )
 }
 
-export default NameTitle
+export default Headline

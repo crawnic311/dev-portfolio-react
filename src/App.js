@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import NameTitle from './components/Headline/name-position'
+import Headline from './components/Headline/name-position'
 
 function App() {
   return (
     <div className="App">
-      <NameTitle />
+      <Headline />
     </div>
   )
 }

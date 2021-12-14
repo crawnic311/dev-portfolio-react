@@ -2,16 +2,16 @@
   text-align: center;
 }
 
-.NameTitle-Name {
+.Headline-Name {
   font-weight: 800;
   font-size: 32px;
 }
 
-.NameTitle-Underline {
+.Headline-Underline {
   border-bottom: 1px solid darkblue;
 }
 
-.NameTitle-Title {
+.Headline-Title {
   font-weight: 400;
   font-size: 24px;
 }

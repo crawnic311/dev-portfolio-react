@@ -17,6 +17,7 @@
   width: 65vw;
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
+  margin: auto;
 }
 
 .Headline-Component {
@@ -39,18 +40,9 @@
   margin-bottom: 32px;
 }
 
-.Skills-Container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
 .Skills-Flex-Item {
   width: 160px;
   display: inline-block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   border: 1px solid red;
 }
 

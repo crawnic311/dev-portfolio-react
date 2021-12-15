@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.Headline-Component {
+  display: inline-block;
+  text-align: left;
+}
+
+.App-Headline-Section {
+  height: 190px;
+  padding: 192px 48px 198px 48px;
+}
+
 .Headline-Name {
   font-weight: 800;
   font-size: 32px;
@@ -9,6 +19,7 @@
 
 .Headline-Underline {
   border-bottom: 1px solid darkblue;
+  width: 70vw;
 }
 
 .Headline-Title {

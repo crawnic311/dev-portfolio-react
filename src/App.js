@@ -5,11 +5,12 @@ import AboutMe from './components/About-Me/about-me'
 import Skills from './components/Skills/skills'
 import ProjectHeadline from './components/Projects/projects-headline'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
+import Contact from './components/Get-In-Touch/contact'
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="App-Headline-Section">
         <Headline />
       </div>
       <div>
@@ -23,6 +24,7 @@ function App() {
       </div>
       <div>
         <ContactHeadline />
+        <Contact />
       </div>
     </div>
   )

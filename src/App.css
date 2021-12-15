@@ -40,6 +40,12 @@
   margin-bottom: 32px;
 }
 
+#Skills-Headline-Name {
+  text-align: right;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .Skills-Flex-Item {
   width: 160px;
   display: inline-block;

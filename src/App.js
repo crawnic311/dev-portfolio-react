@@ -6,6 +6,7 @@ import Skills from './components/Skills/skills'
 import ProjectHeadline from './components/Projects/projects-headline'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
+import SkillsHeadline from './components/Skills/skills-headline'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <AboutMe />
       </div>
       <div className="App-Skills-Section">
+        <SkillsHeadline />
         <Skills />
       </div>
       <div>

@@ -20,3 +20,11 @@
   width: 140px;
   height: 140px;
 }
+
+.Projects-Headline {
+  border-bottom: 1px solid darkblue;
+}
+
+.Contact-Headline {
+  border-bottom: 1px solid darkblue;
+}

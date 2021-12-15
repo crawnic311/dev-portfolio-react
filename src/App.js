@@ -13,10 +13,10 @@ function App() {
       <div className="App-Headline-Section">
         <Headline />
       </div>
-      <div>
+      <div className="App-AboutMe-Section">
         <AboutMe />
       </div>
-      <div>
+      <div className="App-Skills-Section">
         <Skills />
       </div>
       <div>

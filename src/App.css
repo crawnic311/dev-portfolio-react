@@ -2,14 +2,26 @@
   text-align: center;
 }
 
-.Headline-Component {
-  display: inline-block;
-  text-align: left;
-}
-
 .App-Headline-Section {
   height: 190px;
   padding: 192px 48px 198px 48px;
+}
+
+.App-AboutMe-Section {
+  height: 420px;
+  padding: 48px 48px 16px 48px;
+}
+
+.App-Skills-Section {
+  height: 880px;
+  width: 65vw;
+  padding: 48px 48px 16px 48px;
+  border: 1px solid red;
+}
+
+.Headline-Component {
+  display: inline-block;
+  text-align: left;
 }
 
 .Headline-Name {
@@ -27,9 +39,28 @@
   margin-bottom: 32px;
 }
 
-.Skills-icon {
+.Skills-Container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Skills-Flex-Item {
+  width: 160px;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.Skills-Icon {
   width: 140px;
   height: 140px;
+}
+
+.Skills-Text {
+  display: inline;
 }
 
 .Projects-Headline {

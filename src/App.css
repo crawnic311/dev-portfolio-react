@@ -15,16 +15,16 @@
 .Headline-Name {
   font-weight: 800;
   font-size: 32px;
-}
-
-.Headline-Underline {
-  border-bottom: 1px solid darkblue;
-  width: 70vw;
+  padding-bottom: 14px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid black;
+  width: 65vw;
 }
 
 .Headline-Title {
   font-weight: 400;
   font-size: 24px;
+  margin-bottom: 32px;
 }
 
 .Skills-icon {

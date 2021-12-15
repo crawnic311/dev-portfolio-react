@@ -9,11 +9,30 @@
 
 .App-AboutMe-Section {
   height: 420px;
+  width: 65vw;
   padding: 48px 48px 16px 48px;
+  border: 1px solid red;
+  margin: auto;
 }
 
 .App-Skills-Section {
-  height: 880px;
+  height: 680px;
+  width: 65vw;
+  padding: 48px 48px 16px 48px;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.App-Projects-Section {
+  height: 780px;
+  width: 65vw;
+  padding: 48px 48px 16px 48px;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.App-Contact-Section {
+  height: 580px;
   width: 65vw;
   padding: 48px 48px 16px 48px;
   border: 1px solid red;

@@ -21,10 +21,10 @@ function App() {
         <SkillsHeadline />
         <Skills />
       </div>
-      <div>
+      <div className="App-Projects-Section">
         <ProjectHeadline />
       </div>
-      <div>
+      <div className="App-Contact-Section">
         <ContactHeadline />
         <Contact />
       </div>

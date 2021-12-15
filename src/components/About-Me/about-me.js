@@ -8,8 +8,9 @@ const AboutMe = () => {
       intuition and enrolled in a web dev bootcamp.
       <br></br>
       <br></br>I like the outdoors, the indoors, excellent foods, and keeping up
-      with each new installment of the Legend of Zelda. I've lived all over the
-      US these Utah mountains have convinced me to stay put for now.
+      with each new installment of the Legend of Zelda series. I've lived all
+      over the US but these Utah mountains have convinced me to stay put for
+      now.
     </div>
   )
 }

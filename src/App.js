@@ -7,11 +7,13 @@ import ProjectHeadline from './components/Projects/projects-headline'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
+import Menu from './components/Headline/menu'
 
 function App() {
   return (
     <div className="App">
       <div className="App-Headline-Section">
+        <Menu />
         <Headline />
       </div>
       <div className="App-AboutMe-Section">

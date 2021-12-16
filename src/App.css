@@ -39,6 +39,13 @@
   margin: auto;
 }
 
+.Headline-Menu {
+  display: block;
+  text-align: right;
+  position: fixed;
+  z-index: 10;
+}
+
 .Headline-Component {
   display: inline-block;
   text-align: left;

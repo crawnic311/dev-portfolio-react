@@ -12,8 +12,8 @@ import Menu from './components/Headline/menu'
 function App() {
   return (
     <div className="App">
+      <Menu />
       <div className="App-Headline-Section">
-        <Menu />
         <Headline />
       </div>
       <div className="App-AboutMe-Section">

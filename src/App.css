@@ -1,8 +1,5 @@
-.App {
-  text-align: center;
-}
-
 .App-Headline-Section {
+  text-align: center;
   height: 190px;
   padding: 192px 48px 198px 48px;
 }
@@ -40,10 +37,23 @@
 }
 
 .Headline-Menu {
-  display: block;
   text-align: right;
+  width: 98vw;
+  height: 30px;
+  padding: 13px 20px;
   position: fixed;
   z-index: 10;
+  border: 1px solid red;
+}
+
+.Menu {
+  padding: 8px 12px;
+  border: 1px solid green;
+}
+
+.Menu-Text {
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .Headline-Component {

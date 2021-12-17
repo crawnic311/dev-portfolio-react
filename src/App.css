@@ -38,20 +38,22 @@
 
 .Headline-Menu {
   text-align: right;
-  width: 98vw;
+  width: 100vw;
   height: 30px;
-  padding: 13px 20px;
+  padding: 20px 0px;
   position: fixed;
   z-index: 10;
   border: 1px solid red;
 }
 
 .Menu {
+  margin-right: 20px;
   padding: 8px 12px;
   border: 1px solid green;
 }
 
 .Menu-Text {
+  text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
 }

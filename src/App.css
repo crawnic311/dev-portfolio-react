@@ -113,5 +113,8 @@
 }
 
 .Contact-Headline {
-  border-bottom: 1px solid darkblue;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  border-bottom: 2px solid black;
 }

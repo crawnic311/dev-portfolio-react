@@ -6,9 +6,24 @@ const Contact = () => {
       <div>Orem, UT 84057</div>
       <div>dillon.craw@gmail.com</div>
       <div>
-        <button>Resume</button>
-        <button>LinkedIn</button>
-        <button>Github</button>
+        <button>
+          <a
+            href="https://docs.google.com/document/d/1E6UPWmel1o5LDudCTl6ecdWPIph7kBgzAJEWmtAK6N4/edit"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </button>
+        <button>
+          <a href="https://www.linkedin.com/in/dillon-craw" target="_blank">
+            LinkedIn
+          </a>
+        </button>
+        <button>
+          <a href="https://github.com/crawnic311" target="_blank">
+            Github
+          </a>
+        </button>
       </div>
     </div>
   )

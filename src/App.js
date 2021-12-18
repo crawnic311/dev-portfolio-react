@@ -8,6 +8,7 @@ import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
 import Menu from './components/Headline/menu'
+import AboutMeHeadline from './components/About-Me/about-me-headline'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Headline />
       </div>
       <div className="App-AboutMe-Section">
+        <AboutMeHeadline />
         <AboutMe />
       </div>
       <div className="App-Skills-Section">

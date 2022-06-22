@@ -13,9 +13,10 @@
 }
 
 .About-Me-Icon {
-  width: 340px;
-  height: 340px;
+  width: 240px;
+  height: 240px;
   float: right;
+  padding-left: 60px;
 }
 
 .App-Skills-Section {

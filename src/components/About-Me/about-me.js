@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="About-Me-Text">
       <img
-        src={require('../../section-icons/WebDev-Icon.png')}
+        src={require('../../section-icons/WebDev Icon.png')}
         alt=""
         className="About-Me-Icon"
       />

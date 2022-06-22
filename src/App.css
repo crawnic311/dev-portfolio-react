@@ -12,6 +12,12 @@
   margin: auto;
 }
 
+.About-Me-Icon {
+  width: 340px;
+  height: 340px;
+  float: right;
+}
+
 .App-Skills-Section {
   height: 680px;
   width: 65vw;
@@ -88,6 +94,10 @@
   text-align: right;
   font-size: 28px;
   font-weight: 600;
+}
+
+.About-Me-Text {
+  text-align: right;
 }
 
 .Skills-Flex-Item {

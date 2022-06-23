@@ -75,6 +75,14 @@ const Skills = () => {
         />
         <p className="Skills-Text">C++</p>
       </div>
+      <div className="Skills-Flex-Item">
+        <img
+          src={require('../../skills-icons/Firebase Icon.png')}
+          alt=""
+          className="Skills-Icon"
+        />
+        <p className="Skills-Text">Firebase</p>
+      </div>
     </div>
   )
 }

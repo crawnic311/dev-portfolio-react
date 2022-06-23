@@ -102,6 +102,13 @@
   font-size: 18px;
 }
 
+.Skill-Container {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Skills-Flex-Item {
   text-align: center;
   width: 160px;

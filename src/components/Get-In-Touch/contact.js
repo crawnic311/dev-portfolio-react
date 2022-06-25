@@ -3,9 +3,13 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      <div>Orem, UT 84057</div>
-      <div>dillon.craw@gmail.com</div>
-      <div>
+      <div className="Contact-Line" id="Contact-Address">
+        Orem, UT 84057
+      </div>
+      <div className="Contact-Line" id="Contact-Email">
+        dillon.craw@gmail.com
+      </div>
+      <div className="Contact-Buttons-Holder">
         <button>
           <a
             href="https://docs.google.com/document/d/1E6UPWmel1o5LDudCTl6ecdWPIph7kBgzAJEWmtAK6N4/edit"

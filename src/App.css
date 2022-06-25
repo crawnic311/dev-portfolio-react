@@ -143,3 +143,20 @@
   font-weight: 600;
   border-bottom: 2px solid black;
 }
+
+.Contact-Line {
+  border: solid gold 1px;
+  margin-top: 30px;
+}
+
+#Contact-Address {
+  background-color: aquamarine;
+}
+
+#Contact-Email {
+  background-color: pink;
+}
+
+.Contact-Buttons-Holder {
+  border: solid blue 1px;
+}

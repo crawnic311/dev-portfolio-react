@@ -167,3 +167,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.Contact-Button {
+  background-color: orange;
+  height: 52px;
+  width: 140px;
+}

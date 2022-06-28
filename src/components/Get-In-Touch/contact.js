@@ -14,27 +14,25 @@ const Contact = () => {
         dillon.craw@gmail.com
       </div>
       <div className="Contact-Buttons-Holder">
-        <button>
+        <button className="Contact-Button">
           <a
             href="https://docs.google.com/document/d/1E6UPWmel1o5LDudCTl6ecdWPIph7kBgzAJEWmtAK6N4/edit"
             target="_blank"
-            className="Contact-Button"
             id="Resume-Button"
           >
             Resume
           </a>
         </button>
-        <button>
+        <button className="Contact-Button">
           <a
             href="https://www.linkedin.com/in/dillon-craw"
             target="_blank"
-            className="Contact-Button"
             id="LinkedIn-Button"
           >
             LinkedIn
           </a>
         </button>
-        <button>
+        <button className="Contact-Button">
           <a
             href="https://github.com/crawnic311"
             target="_blank"

@@ -166,11 +166,14 @@
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
+  background-color: navy;
 }
 
 .Contact-Button {
-  background-color: orange;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
   height: 52px;
   width: 140px;
+  cursor: pointer;
   border-radius: 5px;
 }

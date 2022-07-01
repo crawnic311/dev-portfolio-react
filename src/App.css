@@ -177,3 +177,7 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+#Github-Button {
+  text-decoration: dashed;
+}

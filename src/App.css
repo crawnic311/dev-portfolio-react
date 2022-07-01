@@ -178,5 +178,8 @@
 }
 
 #Github-Button {
+  text-decoration-line: underline;
   text-decoration: dashed;
+  text-decoration-color: black;
+  font-size: large;
 }

@@ -1,6 +1,6 @@
 .App {
   background-color: blueviolet;
-  background-image: -webkit-image-set();
+  background-image: url(/src/bg-images/Banff.jpeg);
 }
 
 .App-Headline-Section {

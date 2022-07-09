@@ -13,6 +13,11 @@ import AboutMeHeadline from './components/About-Me/about-me-headline'
 function App() {
   return (
     <div className="App">
+      <img
+        src={require('../src/bg-images/Banff.jpeg')}
+        alt=""
+        className="BG-Image"
+      />
       <Menu />
       <div className="App-Headline-Section">
         <Headline />

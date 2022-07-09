@@ -1,6 +1,9 @@
-.App {
-  background-color: blueviolet;
+.BG-Wrapper {
   background-image: url(/src/bg-images/Banff.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 0;
+  border: 2px solid orange;
 }
 
 .App-Headline-Section {

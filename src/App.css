@@ -2,6 +2,10 @@
   color: aliceblue;
 }
 
+.Sections-Wrapper-Below-Header {
+  background-color: aliceblue;
+}
+
 @media screen and (min-width: 1280px) {
   .BG-Image {
     z-index: -10;

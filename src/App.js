@@ -22,16 +22,18 @@ function App() {
       <div className="App-Headline-Section" id="Headline-BG-Image">
         <Headline />
       </div>
-      <div className="App-AboutMe-Section">
-        <AboutMeHeadline />
-        <AboutMe />
-      </div>
-      <div className="App-Skills-Section">
-        <SkillsHeadline />
-        <Skills />
-      </div>
-      <div className="App-Projects-Section">
-        <ProjectHeadline />
+      <div className="Sections-Wrapper-Below-Header">
+        <div className="App-AboutMe-Section">
+          <AboutMeHeadline />
+          <AboutMe />
+        </div>
+        <div className="App-Skills-Section">
+          <SkillsHeadline />
+          <Skills />
+        </div>
+        <div className="App-Projects-Section">
+          <ProjectHeadline />
+        </div>
       </div>
       <div className="App-Contact-Section">
         <ContactHeadline />

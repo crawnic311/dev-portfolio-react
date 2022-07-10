@@ -4,14 +4,18 @@
 }
 
 .Sections-Below-Header-Wrapper {
-  background-color: #34435e;
 }
 
 .Gradient-Wrapper-AboutMe {
   background: linear-gradient(364deg, #2a4066 20%, transparent 0%);
+  background-color: #34435e;
 }
 .Gradient-Wrapper-Skills {
-  background-color: #2a4066;
+  background: linear-gradient(355deg, #1f3454 20%, #2a4066 1%);
+}
+
+.Gradient-Wrapper-Projects {
+  background: linear-gradient(365deg, transparent 20%, #1f3454 1%);
 }
 
 @media screen and (min-width: 1280px) {
@@ -64,7 +68,6 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
-  background-color: #2a4066;
 }
 
 .App-Projects-Section {
@@ -73,7 +76,6 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
-  background-color: #34435e;
 }
 
 .App-Contact-Section {
@@ -82,7 +84,6 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
-  background-color: #34435e;
 }
 
 .Headline-Menu {

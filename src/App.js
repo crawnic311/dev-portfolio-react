@@ -35,8 +35,10 @@ function App() {
             <Skills />
           </div>
         </div>
-        <div className="App-Projects-Section">
-          <ProjectHeadline />
+        <div className="Gradient-Wrapper-Projects">
+          <div className="App-Projects-Section">
+            <ProjectHeadline />
+          </div>
         </div>
       </div>
       <div className="App-Contact-Section">

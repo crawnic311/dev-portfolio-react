@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="App">
       <img
-        src={require('../src/bg-images/Banff.jpeg')}
+        src={require('../src/bg-images/Banff 45 OP.jpg')}
         alt=""
         className="BG-Image"
       />
       <Menu />
-      <div className="App-Headline-Section">
+      <div className="App-Headline-Section" id="Headline-BG-Image">
         <Headline />
       </div>
       <div className="App-AboutMe-Section">

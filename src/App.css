@@ -1,8 +1,15 @@
-.BG-Image {
-  z-index: -10;
-  border: 2px solid orange;
-  position: fixed;
-  width: 100vw;
+.App {
+  color: aliceblue;
+}
+
+@media screen and (min-width: 1280px) {
+  .BG-Image {
+    z-index: -10;
+    border: 2px solid orange;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 .App-Headline-Section {
@@ -11,12 +18,25 @@
   padding: 192px 48px 198px 48px;
 }
 
+@media screen and (max-width: 1280px) {
+  .BG-Image {
+    display: none;
+  }
+  #Headline-BG-Image {
+    background-image: url(/src/bg-images/Banff\ 45\ OP.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
+    z-index: 199;
+  }
+}
+
 .App-AboutMe-Section {
   height: 420px;
   width: 65vw;
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
+  background-color: #34435e;
 }
 
 .About-Me-Icon {
@@ -32,6 +52,7 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
+  background-color: #34435e;
 }
 
 .App-Projects-Section {
@@ -40,6 +61,7 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
+  background-color: #34435e;
 }
 
 .App-Contact-Section {
@@ -48,6 +70,7 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
+  background-color: #34435e;
 }
 
 .Headline-Menu {

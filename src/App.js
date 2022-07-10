@@ -22,20 +22,23 @@ function App() {
       <div className="App-Headline-Section" id="Headline-BG-Image">
         <Headline />
       </div>
-      <div className="Gradient-Wrapper-AboutMe">
-        <div className="App-AboutMe-Section">
-          <AboutMeHeadline />
-          <AboutMe />
+      <div className="Sections-Below-Header-Wrapper">
+        <div className="Gradient-Wrapper-AboutMe">
+          <div className="App-AboutMe-Section">
+            <AboutMeHeadline />
+            <AboutMe />
+          </div>
+        </div>
+        <div className="Gradient-Wrapper-Skills">
+          <div className="App-Skills-Section">
+            <SkillsHeadline />
+            <Skills />
+          </div>
+        </div>
+        <div className="App-Projects-Section">
+          <ProjectHeadline />
         </div>
       </div>
-      <div className="App-Skills-Section">
-        <SkillsHeadline />
-        <Skills />
-      </div>
-      <div className="App-Projects-Section">
-        <ProjectHeadline />
-      </div>
-
       <div className="App-Contact-Section">
         <ContactHeadline />
         <Contact />

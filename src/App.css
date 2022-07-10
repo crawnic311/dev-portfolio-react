@@ -1,10 +1,17 @@
 .App {
   color: aliceblue;
+  line-height: 1.6;
+}
+
+.Sections-Below-Header-Wrapper {
+  background-color: #34435e;
 }
 
 .Gradient-Wrapper-AboutMe {
-  background-color: #34435e;
-  z-index: -10;
+  background: linear-gradient(364deg, #2a4066 20%, transparent 0%);
+}
+.Gradient-Wrapper-Skills {
+  background-color: #2a4066;
 }
 
 @media screen and (min-width: 1280px) {
@@ -39,7 +46,7 @@
 .App-AboutMe-Section {
   height: 420px;
   width: 65vw;
-  padding: 48px 48px 16px 48px;
+  padding: 48px 48px 76px 48px;
   border: 1px solid red;
   margin: auto;
 }
@@ -57,7 +64,7 @@
   padding: 48px 48px 16px 48px;
   border: 1px solid red;
   margin: auto;
-  background-color: #34435e;
+  background-color: #2a4066;
 }
 
 .App-Projects-Section {

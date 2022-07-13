@@ -3,9 +3,6 @@
   line-height: 1.6;
 }
 
-.Sections-Below-Header-Wrapper {
-}
-
 .Gradient-Wrapper-AboutMe {
   background: linear-gradient(364deg, #2a4066 20%, transparent 0%);
   background-color: #34435e;
@@ -31,7 +28,7 @@
 .App-Headline-Section {
   text-align: center;
   height: 190px;
-  padding: 192px 48px 198px 48px;
+  padding: 192px 48px 348px 48px;
   background: linear-gradient(355deg, #34435e 20%, transparent 0%);
 }
 
@@ -51,7 +48,7 @@
   height: 420px;
   width: 65vw;
   padding: 48px 48px 76px 48px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -66,15 +63,15 @@
   height: 680px;
   width: 65vw;
   padding: 48px 48px 16px 48px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
 }
 
 .App-Projects-Section {
   height: 780px;
   width: 65vw;
-  padding: 48px 48px 16px 48px;
-  border: 1px solid red;
+  padding: 48px 48px 86px 48px;
+  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -82,7 +79,7 @@
   height: 580px;
   width: 65vw;
   padding: 48px 48px 16px 48px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -93,13 +90,13 @@
   padding: 20px 0px;
   position: fixed;
   z-index: 10;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .Menu {
   margin-right: 20px;
   padding: 8px 12px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .Menu-Text {
@@ -118,7 +115,7 @@
   font-size: 32px;
   padding-bottom: 14px;
   margin-bottom: 28px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid aliceblue;
   width: 65vw;
 }
 
@@ -146,7 +143,7 @@
 }
 
 .App-Skills-Section {
-  border: green 1px solid;
+  /* border: green 1px solid; */
 }
 
 .Skill-Container {
@@ -161,7 +158,8 @@
   text-align: center;
   width: 160px;
   display: inline-block;
-  border: 1px solid red;
+  padding-bottom: 60px;
+  /* border: 1px solid red; */
 }
 
 .Skills-Icon {
@@ -177,14 +175,14 @@
   text-align: left;
   font-size: 32px;
   font-weight: 600;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid aliceblue;
 }
 
 .Contact-Headline {
   text-align: left;
   font-size: 32px;
   font-weight: 600;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid aliceblue;
 }
 
 .Contact-Quip {

@@ -4,15 +4,19 @@
 }
 
 .Gradient-Wrapper-AboutMe {
-  background: linear-gradient(364deg, #2a4066 20%, transparent 0%);
-  background-color: #34435e;
+  background: linear-gradient(364deg, #01565d /*#2a4066*/ 20%, transparent 0%);
+  background-color: #1c6d73 /*#34435e*/;
 }
 .Gradient-Wrapper-Skills {
-  background: linear-gradient(355deg, #1f3454 20%, #2a4066 1%);
+  background: linear-gradient(
+    355deg,
+    #01373e /*#1f3454*/ 20%,
+    #01565d /*#2a4066*/ 1%
+  );
 }
 
 .Gradient-Wrapper-Projects {
-  background: linear-gradient(365deg, transparent 20%, #1f3454 1%);
+  background: linear-gradient(365deg, transparent 20%, #01373e /*#1f3454*/ 1%);
 }
 
 @media screen and (min-width: 1280px) {
@@ -29,7 +33,7 @@
   text-align: center;
   height: 190px;
   padding: 192px 48px 348px 48px;
-  background: linear-gradient(355deg, #34435e 20%, transparent 0%);
+  background: linear-gradient(355deg, #1c6d73 /*#34435e*/ 20%, transparent 0%);
 }
 
 @media screen and (max-width: 1280px) {

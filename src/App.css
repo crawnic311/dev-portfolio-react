@@ -4,25 +4,28 @@
 }
 
 .Gradient-Wrapper-AboutMe {
-  background: linear-gradient(364deg, #01565d /*#2a4066*/ 20%, transparent 0%);
+  background: linear-gradient(
+    364deg,
+    #004148 /*#01373e*/ /*#2a4066*/ 20%,
+    transparent 0%
+  );
   background-color: #1c6d73 /*#34435e*/;
 }
 .Gradient-Wrapper-Skills {
   background: linear-gradient(
     355deg,
-    #01373e /*#1f3454*/ 20%,
-    #01565d /*#2a4066*/ 1%
+    #01565d /*#1f3454*/ 20%,
+    #004148 /*#01373e*/ /*#2a4066*/ 1%
   );
 }
 
 .Gradient-Wrapper-Projects {
-  background: linear-gradient(365deg, transparent 20%, #01373e /*#1f3454*/ 1%);
+  background: linear-gradient(365deg, transparent 20%, #01565d /*#1f3454*/ 1%);
 }
 
 @media screen and (min-width: 1280px) {
   .BG-Image {
     z-index: -10;
-    border: 2px solid orange;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -194,16 +197,16 @@
 }
 
 .Contact-Line {
-  border: solid gold 1px;
+  border: solid transparent 1px;
   margin-top: 60px;
 }
 
 #Contact-Address {
-  background-color: aquamarine;
+  background-color: transparent;
 }
 
 #Contact-Email {
-  background-color: pink;
+  background-color: transparent;
 }
 
 .Contact-Buttons-Holder {
@@ -211,6 +214,7 @@
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
+  background-color: #01565d /*#004148*/ /*#01373e*/;
 }
 
 .Contact-Button {
@@ -220,6 +224,7 @@
   width: 140px;
   cursor: pointer;
   border-radius: 5px;
+  color: aliceblue;
 }
 
 #Github-Button {

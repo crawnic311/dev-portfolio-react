@@ -229,3 +229,6 @@
 }
 
 .Contact-Button:hover {
+  background-color: #1c6d73;
+  transition: 0.2s;
+}

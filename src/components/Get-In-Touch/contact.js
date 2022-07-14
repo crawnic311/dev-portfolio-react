@@ -18,6 +18,7 @@ const Contact = () => {
           <a
             href="https://docs.google.com/document/d/1E6UPWmel1o5LDudCTl6ecdWPIph7kBgzAJEWmtAK6N4/edit"
             target="_blank"
+            className="Contact-Button"
             id="Resume-Button"
           >
             Resume
@@ -27,6 +28,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/dillon-craw"
             target="_blank"
+            className="Contact-Button"
             id="LinkedIn-Button"
           >
             LinkedIn

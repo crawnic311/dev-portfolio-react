@@ -210,16 +210,17 @@
 }
 
 .Contact-Buttons-Holder {
-  border: solid blue 1px;
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #01565d /*#004148*/ /*#01373e*/;
+  /*background-color: #01565d /*#004148*/ /*#01373e*/
 }
 
 .Contact-Button {
-  background-color: transparent;
-  transition: background-color 0.2s ease-in-out;
+  background-color: #02555c /*#01565d*/;
+  text-decoration: underline dotted lightblue;
+  text-transform: uppercase;
+  font-weight: 700;
   height: 52px;
   width: 140px;
   cursor: pointer;
@@ -227,8 +228,4 @@
   color: aliceblue;
 }
 
-#Github-Button {
-  text-decoration-line: underline;
-  text-decoration: dashed;
-  font-size: large;
-}
+.Contact-Button:hover {

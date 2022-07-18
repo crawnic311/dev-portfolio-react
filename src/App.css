@@ -103,6 +103,9 @@
 .Menu {
   margin-right: 20px;
   padding: 8px 12px;
+  border: lightblue 1px solid;
+  border-radius: 7px;
+
   /* border: 1px solid green; */
 }
 

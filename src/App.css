@@ -198,20 +198,24 @@
   justify-content: space-evenly;
 }
 
-.Contact-Button {
+.Contact-Buttons {
   background-color: #02555c;
+  height: 52px;
+  width: 140px;
+  cursor: pointer;
+  border: lightblue 1.5px solid;
+  border-radius: 5px;
+}
+
+.Contact-Button-Text {
   text-decoration: underline dotted lightblue;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 3;
-  height: 52px;
-  width: 140px;
-  cursor: pointer;
-  border-radius: 5px;
   color: aliceblue;
 }
 
-.Contact-Button:hover {
+.Contact-Buttons:hover {
   background-color: #1c6d73;
   transition: 0.2s;
 }

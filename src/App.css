@@ -91,14 +91,13 @@
   margin-right: 20px;
   padding: 8px 12px;
   border: lightblue 1px solid;
-  border-radius: 7px;
-  font-weight: 700;
+  border-radius: 5px;
 }
 
 .Menu-Text {
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 3;
 }
 
 .Headline-Component {
@@ -204,6 +203,7 @@
   text-decoration: underline dotted lightblue;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 3;
   height: 52px;
   width: 140px;
   cursor: pointer;

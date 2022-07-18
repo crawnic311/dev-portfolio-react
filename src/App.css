@@ -4,23 +4,15 @@
 }
 
 .Gradient-Wrapper-AboutMe {
-  background: linear-gradient(
-    364deg,
-    #004148 /*#01373e*/ /*#2a4066*/ 20%,
-    transparent 0%
-  );
-  background-color: #1c6d73 /*#34435e*/;
+  background: linear-gradient(364deg, #004148 20%, transparent 0%);
+  background-color: #1c6d73;
 }
 .Gradient-Wrapper-Skills {
-  background: linear-gradient(
-    355deg,
-    #01565d /*#1f3454*/ 20%,
-    #004148 /*#01373e*/ /*#2a4066*/ 1%
-  );
+  background: linear-gradient(355deg, #01565d 20%, #004148 1%);
 }
 
 .Gradient-Wrapper-Projects {
-  background: linear-gradient(365deg, transparent 20%, #01565d /*#1f3454*/ 1%);
+  background: linear-gradient(365deg, transparent 20%, #01565d 1%);
 }
 
 @media screen and (min-width: 1280px) {
@@ -36,7 +28,7 @@
   text-align: center;
   height: 190px;
   padding: 192px 48px 348px 48px;
-  background: linear-gradient(355deg, #1c6d73 /*#34435e*/ 20%, transparent 0%);
+  background: linear-gradient(355deg, #1c6d73 20%, transparent 0%);
 }
 
 @media screen and (max-width: 1280px) {
@@ -55,7 +47,6 @@
   height: 420px;
   width: 65vw;
   padding: 48px 48px 76px 48px;
-  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -70,7 +61,6 @@
   height: 680px;
   width: 65vw;
   padding: 48px 48px 16px 48px;
-  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -78,7 +68,6 @@
   height: 780px;
   width: 65vw;
   padding: 48px 48px 86px 48px;
-  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -86,7 +75,6 @@
   height: 580px;
   width: 65vw;
   padding: 48px 48px 16px 48px;
-  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -97,7 +85,6 @@
   padding: 20px 0px;
   position: fixed;
   z-index: 10;
-  /* border: 1px solid red; */
 }
 
 .Menu {
@@ -105,8 +92,7 @@
   padding: 8px 12px;
   border: lightblue 1px solid;
   border-radius: 7px;
-
-  /* border: 1px solid green; */
+  font-weight: 700;
 }
 
 .Menu-Text {
@@ -152,10 +138,6 @@
   font-size: 18px;
 }
 
-.App-Skills-Section {
-  /* border: green 1px solid; */
-}
-
 .Skill-Container {
   display: flex;
   flex-direction: row;
@@ -169,7 +151,6 @@
   width: 160px;
   display: inline-block;
   padding-bottom: 60px;
-  /* border: 1px solid red; */
 }
 
 .Skills-Icon {
@@ -216,11 +197,10 @@
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
-  /*background-color: #01565d /*#004148*/ /*#01373e*/
 }
 
 .Contact-Button {
-  background-color: #02555c /*#01565d*/;
+  background-color: #02555c;
   text-decoration: underline dotted lightblue;
   text-transform: uppercase;
   font-weight: 700;

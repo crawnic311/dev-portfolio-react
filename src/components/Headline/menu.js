@@ -5,6 +5,7 @@ const Menu = () => {
     <div className="Headline-Menu">
       <a className="Menu">
         <span className="Menu-Text">Menu</span>
+        <i class="fa-solid fa-bars"></i>
       </a>
     </div>
   )

@@ -82,14 +82,14 @@
   text-align: right;
   width: 100vw;
   height: 30px;
-  padding: 20px 0px;
+  padding: 25px 0px 20px 0px;
   position: fixed;
   z-index: 10;
 }
 
 .Menu {
   margin-right: 20px;
-  padding: 8px 12px;
+  padding: 9px 12px;
   border: lightblue 1.5px solid;
   border-radius: 5px;
 }
@@ -102,7 +102,9 @@
 .Menu-Text {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 3;
+  font-size: 14px;
+  padding-right: 10px;
+  letter-spacing: 0.05em;
 }
 
 .Headline-Component {
@@ -213,11 +215,15 @@
 }
 
 .Contact-Button-Text {
-  text-decoration: underline dotted lightblue;
+  text-decoration: none /*underline dotted lightblue;*/;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 3;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   color: aliceblue;
+  letter-spacing: 0.05em;
 }
 
 .Contact-Buttons:hover {

@@ -4,16 +4,16 @@ const MenuToggle = () => {
   return (
     <div className="Is-Menu-Visilbe">
       <nav>
-        <div>
+        <div className="Inner-Pop-Menu">
           <h2></h2>
-          <ul>
+          <ul className="Links">
             <li></li>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
           </ul>
-          <a></a>
+          <a className="Close"></a>
         </div>
       </nav>
     </div>

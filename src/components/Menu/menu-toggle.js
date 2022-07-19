@@ -7,11 +7,18 @@ const MenuToggle = () => {
         <div className="Inner-Pop-Menu">
           <h2></h2>
           <ul className="Links">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <a href="#headline">About Me</a>
+            </li>
+            <li>
+              <a href="#aboutMe">About Me</a>
+            </li>
+            <li>
+              <a href="#skills">About Me</a>
+            </li>
+            <li>
+              <a href="#contact">About Me</a>
+            </li>
           </ul>
           <a className="Close"></a>
         </div>

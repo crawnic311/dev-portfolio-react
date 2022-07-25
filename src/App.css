@@ -3,6 +3,9 @@
   line-height: 1.6;
 }
 
+.BG-Image {
+}
+
 .Gradient-Wrapper-AboutMe {
   background: linear-gradient(364deg, #004148 20%, transparent 0%);
   background-color: #1c6d73;
@@ -17,7 +20,7 @@
 
 @media screen and (min-width: 1280px) {
   .BG-Image {
-    z-index: -10;
+    z-index: -1;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -215,7 +218,7 @@
 }
 
 .Contact-Button-Text {
-  text-decoration: none /*underline dotted lightblue;*/;
+  text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;

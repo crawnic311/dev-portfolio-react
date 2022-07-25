@@ -39,9 +39,11 @@ function App() {
           <ProjectHeadline />
         </div>
       </div>
-      <div className="App-Contact-Section">
-        <ContactHeadline />
-        <Contact />
+      <div id="Headline-BG-Image">
+        <div className="App-Contact-Section">
+          <ContactHeadline />
+          <Contact />
+        </div>
       </div>
     </div>
   )

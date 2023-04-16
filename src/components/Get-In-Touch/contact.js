@@ -4,8 +4,7 @@ const Contact = () => {
   return (
     <div>
       <p className="Contact-Quip">
-        Looking for a mild-mannered Web Dev with an affinity for Dad jokes? Let
-        me know!
+        Something witty, something witty, something witty!
       </p>
       <div className="Contact-Line" id="Contact-Address">
         Orem, UT 84057

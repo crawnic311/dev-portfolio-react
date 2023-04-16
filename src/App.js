@@ -20,6 +20,7 @@ function App() {
       />
       <Menu />
       <div className="App-Headline-Section" id="Headline-BG-Image">
+        <div className="Logo"></div>
         <Headline />
       </div>
       <div className="Gradient-Wrapper-AboutMe">

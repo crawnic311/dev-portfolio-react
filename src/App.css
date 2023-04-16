@@ -93,6 +93,20 @@
   z-index: 10;
 }
 
+.Logo {
+  height: 40px;
+  width: 40px;
+  background-image: url('../public/DCLogo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aliceblue;
+  z-index: 1000;
+  border-radius: 50px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+
 .Menu {
   margin-right: 20px;
   padding: 9px 12px;

@@ -4,6 +4,8 @@ import Headline from './components/Headline/name-position'
 import AboutMe from './components/About-Me/about-me'
 import Skills from './components/Skills/skills'
 import ProjectHeadline from './components/Projects/projects-headline'
+import Mineseeper from './components/Projects/Mineseeper'
+import Rekishi from './components/Projects/Rekishi'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
@@ -38,6 +40,8 @@ function App() {
       <div className="Gradient-Wrapper-Projects">
         <div className="App-Projects-Section">
           <ProjectHeadline />
+          <Rekishi />
+          <Mineseeper />
         </div>
       </div>
       <div id="Headline-BG-Image">

@@ -6,6 +6,7 @@ import Skills from './components/Skills/skills'
 import ProjectHeadline from './components/Projects/projects-headline'
 import Mineseeper from './components/Projects/Mineseeper'
 import Rekishi from './components/Projects/Rekishi'
+import More from './components/Projects/More/More'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
@@ -43,6 +44,7 @@ function App() {
           <div className="App-Projects-Container">
             <Rekishi />
             <Mineseeper />
+            <More />
           </div>
         </div>
       </div>

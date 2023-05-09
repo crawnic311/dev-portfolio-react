@@ -81,6 +81,7 @@
 
 .App-Projects-Container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -259,6 +260,36 @@
   width: 400px;
   margin-top: 25px;
   border-radius: 5px;
+}
+
+.More {
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.More-Text {
+  background-color: #004148;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* border: solid 1px red;
+  box-shadow: 0px 0px 5px 5px red; */
+}
+
+.More-Text:hover {
+  border: solid 1px aliceblue;
+  box-shadow: 0px 0px 3px 3px aliceblue;
+}
+
+.More-Text:active {
+  border: solid 1px aliceblue;
+  box-shadow: none;
 }
 
 .Contact-Headline {

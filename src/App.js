@@ -40,8 +40,10 @@ function App() {
       <div className="Gradient-Wrapper-Projects">
         <div className="App-Projects-Section">
           <ProjectHeadline />
-          <Rekishi />
-          <Mineseeper />
+          <div className="App-Projects-Container">
+            <Rekishi />
+            <Mineseeper />
+          </div>
         </div>
       </div>
       <div id="Headline-BG-Image">

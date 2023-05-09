@@ -205,17 +205,19 @@
 }
 
 .Rekishi {
+  background-color: #1d6c73;
   display: flex;
+  flex-direction: column;
   height: 550px;
   width: 400px;
-  border: solid 1px red;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 5px;
 }
 
 .Rekishi-Link {
   height: 200px;
   width: 88%;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
   background-image: url('../public/Rekishi Preview.jpeg');
   background-size: cover;
@@ -225,19 +227,38 @@
 .Minesweeper-Link {
   height: 200px;
   width: 88%;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
   background-image: url('../public/Minesweeper Preview.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.Project-Title {
+  height: 40px;
+  width: 88%;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  border-bottom: 1px solid aliceblue;
+}
+
+.Project-Description {
+  height: 40px;
+  width: 88%;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
 .Minesweeper {
+  background-color: #1d6c73;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 550px;
   width: 400px;
-  border: solid 1px red;
+  margin-top: 25px;
+  border-radius: 5px;
 }
 
 .Contact-Headline {

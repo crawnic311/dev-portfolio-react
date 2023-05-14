@@ -262,13 +262,13 @@
   border-radius: 5px;
 }
 
-.More {
+.See-More {
   width: 100%;
   margin-top: 25px;
   text-align: center;
 }
 
-.More-Text {
+.See-More-Text {
   background-color: #004148;
   display: flex;
   margin: auto;
@@ -278,16 +278,14 @@
   width: 140px;
   border-radius: 5px;
   cursor: pointer;
-  /* border: solid 1px red;
-  box-shadow: 0px 0px 5px 5px red; */
 }
 
-.More-Text:hover {
+.See-More-Text:hover {
   border: solid 1px aliceblue;
   box-shadow: 0px 0px 3px 3px aliceblue;
 }
 
-.More-Text:active {
+.See-More-Text:active {
   border: solid 1px aliceblue;
   box-shadow: none;
 }
@@ -346,4 +344,25 @@
 .Contact-Buttons:hover {
   background-color: #1c6d73;
   transition: 0.2s;
+}
+
+/*Drop Down Section */
+
+.drop-down-section {
+  position: relative;
+}
+
+.content-section {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.content-section p {
+  margin: 0;
+  padding: 10px;
+}
+
+.content-section.open {
+  max-height: 1000px; /* Adjust this value based on your content */
 }

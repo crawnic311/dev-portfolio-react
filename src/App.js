@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import Headline from './components/Headline/name-position'
 import AboutMe from './components/About-Me/about-me'
@@ -12,8 +12,16 @@ import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
 import Menu from './components/Headline/menu'
 import AboutMeHeadline from './components/About-Me/about-me-headline'
+import Foody from './components/Projects/More/MoreProjects/Foody'
+import StealthScribe from './components/Projects/More/MoreProjects/StealthScribe'
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleSection = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <div className="App">
       <img
@@ -44,7 +52,18 @@ function App() {
           <div className="App-Projects-Container">
             <Rekishi />
             <Mineseeper />
-            <More />
+            {/* <More /> */}
+            <div className="See-More" onClick={toggleSection}>
+              <span className="See-More-Text">
+                {isOpen ? 'See Less' : 'See More'}
+              </span>
+            </div>
+            {isOpen && (
+              <div className="content-section">
+                <Foody />
+                <StealthScribe />
+              </div>
+            )}
           </div>
         </div>
       </div>

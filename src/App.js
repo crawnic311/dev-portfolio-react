@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
 import Headline from './components/Headline/name-position'
 import AboutMe from './components/About-Me/about-me'
 import Skills from './components/Skills/skills'
 import ProjectHeadline from './components/Projects/projects-headline'
+import ProjectCarousel from './components/Projects/ProjectCarousel'
 import Mineseeper from './components/Projects/Mineseeper'
 import Rekishi from './components/Projects/Rekishi'
-import More from './components/Projects/More/More'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
@@ -16,11 +16,22 @@ import Foody from './components/Projects/More/MoreProjects/Foody'
 import StealthScribe from './components/Projects/More/MoreProjects/StealthScribe'
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggleSection = () => {
-    setIsOpen(!isOpen)
-  }
+  const projects = [
+    {
+      title: 'Project 1',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    },
+    {
+      title: 'Project 2',
+      description:
+        'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    },
+    {
+      title: 'Project 3',
+      description:
+        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    },
+  ]
 
   return (
     <div className="App">
@@ -50,20 +61,7 @@ function App() {
         <div className="App-Projects-Section">
           <ProjectHeadline />
           <div className="App-Projects-Container">
-            <Rekishi />
-            <Mineseeper />
-            {/* <More /> */}
-            <div className="See-More" onClick={toggleSection}>
-              <span className="See-More-Text">
-                {isOpen ? 'See Less' : 'See More'}
-              </span>
-            </div>
-            {isOpen && (
-              <div className="content-section">
-                <Foody />
-                <StealthScribe />
-              </div>
-            )}
+            <ProjectCarousel projects={projects} />
           </div>
         </div>
       </div>

@@ -262,13 +262,13 @@
   border-radius: 5px;
 }
 
-.See-More {
+.Nav {
   width: 100%;
   margin-top: 25px;
   text-align: center;
 }
 
-.See-More-Text {
+.Nav-Text {
   background-color: #004148;
   display: flex;
   margin: auto;
@@ -280,12 +280,12 @@
   cursor: pointer;
 }
 
-.See-More-Text:hover {
+.Nav-Text:hover {
   border: solid 1px aliceblue;
   box-shadow: 0px 0px 3px 3px aliceblue;
 }
 
-.See-More-Text:active {
+.Nav-Text:active {
   border: solid 1px aliceblue;
   box-shadow: none;
 }
@@ -348,21 +348,18 @@
 
 /*Drop Down Section */
 
-.drop-down-section {
-  position: relative;
-}
-
-.content-section {
+.More-Content-Section {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease;
 }
 
-.content-section p {
-  margin: 0;
-  padding: 10px;
-}
-
-.content-section.open {
-  max-height: 1000px; /* Adjust this value based on your content */
+.More-Content-Section.open {
+  height: 780px;
+  width: 65vw;
+  padding: 48px 48px 86px 48px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
 }

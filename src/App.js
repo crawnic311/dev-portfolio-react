@@ -36,13 +36,19 @@ function App() {
     },
     {
       title: 'StealthScribe',
+      image: '/StealthScribe Preview.jpeg',
+      link: 'https://minesweeper-1bfe6.web.app/',
       description:
-        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'StealthScribe is an anonymous platform for classrooms of all kinds, facilitating confidential sharing of answers and fostering open expression of thoughts and ideas.',
+      info: '',
     },
     {
       title: 'Foody',
+      image: '/Foody Preview.jpg',
+      link: 'https://foody-authentication.firebaseapp.com/',
       description:
-        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Foody is your quick, easy, and convenient place to store all of your favorite recipes!',
+      info: '',
     },
   ]
 

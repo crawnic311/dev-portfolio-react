@@ -14,24 +14,27 @@ const ProjectCarousel = ({ projects }) => {
   return (
     <div>
       <div></div>
-      <div className="Rekishi">
+      <div className="Project">
         <a
-          className="Rekishi-Link"
-          href="https://www.rekishi.io/"
+          className="Link"
+          href={projects[currentProject].link}
           target="blank"
         ></a>
-        <div className="Project-Title">Rekishi</div>
+        <div className="Project-Title">{projects[currentProject].title}</div>
         <p className="Project-Description">
-          An up-and-coming community for all things Anime and Comics!
+          {projects[currentProject].description}
           <br />
           <br />
-          I'm building this web app using react.js node.js and firebase. It's
-          still in production but feel free to take a look around. Login to our
-          test account with these credentials:
-          <br />
-          rekishitester@gmail.com
-          <br />
-          rekishi123
+          {projects[currentProject].info}
+          {projects[currentProject].title === 'Rekishi' ? (
+            <div>
+              {projects[currentProject].login}
+              <br />
+              {projects[currentProject].password}
+            </div>
+          ) : (
+            <div></div>
+          )}
         </p>
       </div>
       <div className="Nav" onClick={handlePrevProject}>

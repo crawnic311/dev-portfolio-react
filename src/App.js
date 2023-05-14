@@ -18,8 +18,13 @@ import StealthScribe from './components/Projects/More/MoreProjects/StealthScribe
 function App() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Rekishi',
+      link: 'https://www.rekishi.io/',
+      description:
+        'An up-and-coming community for all things Anime and Comics!',
+      info: `I'm building this web app using react.js node.js and firebase. It's still in production but feel free to take a look around. Login to our test account with these credentials: `,
+      login: 'rekishitester@gmail.com',
+      password: 'rekishi123',
     },
     {
       title: 'Project 2',

@@ -312,6 +312,7 @@
   background-color: #004148;
   border: solid 1px aliceblue;
   box-shadow: 0px 0px 1px 1px aliceblue;
+  transform: translateY(-1px);
 }
 
 .Nav-Buttons {

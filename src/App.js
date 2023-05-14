@@ -10,7 +10,6 @@ import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
 import Menu from './components/Headline/menu'
 import AboutMeHeadline from './components/About-Me/about-me-headline'
-import ProjectCarouselTest from './components/Projects/Test/ProjectCarouselTest'
 
 function App() {
   const projects = [
@@ -82,7 +81,7 @@ function App() {
           <ProjectHeadline />
           <div className="App-Projects-Container">
             {/* <ProjectCarousel projects={projects} /> */}
-            <ProjectCarouselTest projects={projects} />
+            <ProjectCarousel projects={projects} />
           </div>
         </div>
       </div>

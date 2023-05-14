@@ -39,11 +39,13 @@ const ProjectCarousel = ({ projects }) => {
           )}
         </p>
       </div>
-      <div className="Nav" onClick={handlePrevProject}>
-        <span className="Nav-Text">Previous</span>
-      </div>
-      <div className="Nav" onClick={handleNextProject}>
-        <span className="Nav-Text">Next</span>
+      <div className="Nav-Container">
+        <div className="Nav" onClick={handlePrevProject}>
+          <span className="Nav-Text">Previous</span>
+        </div>
+        <div className="Nav" onClick={handleNextProject}>
+          <span className="Nav-Text">Next</span>
+        </div>
       </div>
     </div>
   )

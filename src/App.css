@@ -3,9 +3,6 @@
   line-height: 1.6;
 }
 
-.BG-Image {
-}
-
 .Gradient-Wrapper-AboutMe {
   background: linear-gradient(364deg, #004148 20%, transparent 0%);
   background-color: #1c6d73;
@@ -83,7 +80,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .App-Contact-Section {
@@ -202,6 +199,7 @@
   text-align: left;
   font-size: 32px;
   font-weight: 600;
+  margin-bottom: 25px;
   border-bottom: 2px solid aliceblue;
 }
 
@@ -212,8 +210,30 @@
   height: 550px;
   width: 400px;
   align-items: center;
-  margin-top: 25px;
+  overflow: hidden;
   border-radius: 5px;
+}
+
+.project-transition-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.project-transition-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.project-transition-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.project-transition-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 500ms, transform;
 }
 
 .Project-Preview {
@@ -245,15 +265,8 @@
   padding-top: 10px;
 }
 
-.Minesweeper {
-  background-color: #1d6c73;
+.Nav-Container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 550px;
-  width: 400px;
-  margin-top: 25px;
-  border-radius: 5px;
 }
 
 .Nav {

@@ -5,19 +5,17 @@ import AboutMe from './components/About-Me/about-me'
 import Skills from './components/Skills/skills'
 import ProjectHeadline from './components/Projects/projects-headline'
 import ProjectCarousel from './components/Projects/ProjectCarousel'
-import Mineseeper from './components/Projects/Mineseeper'
-import Rekishi from './components/Projects/Rekishi'
 import ContactHeadline from './components/Get-In-Touch/contact-headline'
 import Contact from './components/Get-In-Touch/contact'
 import SkillsHeadline from './components/Skills/skills-headline'
 import Menu from './components/Headline/menu'
 import AboutMeHeadline from './components/About-Me/about-me-headline'
-import Foody from './components/Projects/More/MoreProjects/Foody'
-import StealthScribe from './components/Projects/More/MoreProjects/StealthScribe'
+import ProjectCarouselTest from './components/Projects/Test/ProjectCarouselTest'
 
 function App() {
   const projects = [
     {
+      id: 1,
       title: 'Rekishi',
       image: '/Rekishi Preview.jpeg',
       link: 'https://www.rekishi.io/',
@@ -28,6 +26,7 @@ function App() {
       password: 'rekishi123',
     },
     {
+      id: 2,
       title: 'Minesweeper',
       image: '/Minesweeper Preview.jpeg',
       link: 'https://minesweeper-1bfe6.web.app/',
@@ -35,6 +34,7 @@ function App() {
       info: 'Built using pure JavaScript, HTML, CSS, and deployed with Firebase. It features recursive cell revealing and an immersive interface. Give it a go!',
     },
     {
+      id: 3,
       title: 'StealthScribe',
       image: '/StealthScribe Preview.jpeg',
       link: 'https://minesweeper-1bfe6.web.app/',
@@ -43,6 +43,7 @@ function App() {
       info: '',
     },
     {
+      id: 4,
       title: 'Foody',
       image: '/Foody Preview.jpg',
       link: 'https://foody-authentication.firebaseapp.com/',
@@ -80,7 +81,8 @@ function App() {
         <div className="App-Projects-Section">
           <ProjectHeadline />
           <div className="App-Projects-Container">
-            <ProjectCarousel projects={projects} />
+            {/* <ProjectCarousel projects={projects} /> */}
+            <ProjectCarouselTest projects={projects} />
           </div>
         </div>
       </div>

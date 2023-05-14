@@ -15,11 +15,14 @@ const ProjectCarousel = ({ projects }) => {
     <div>
       <div></div>
       <div className="Project">
-        <a
-          className="Link"
-          href={projects[currentProject].link}
-          target="blank"
-        ></a>
+        <a className="Link" href={projects[currentProject].link} target="blank">
+          <img
+            className="Project-Preview"
+            // src={process.env.PUBLIC_URL + '/Rekishi Preview.jpeg'}
+            src={process.env.PUBLIC_URL + projects[currentProject].image}
+            alt=""
+          />
+        </a>
         <div className="Project-Title">{projects[currentProject].title}</div>
         <p className="Project-Description">
           {projects[currentProject].description}

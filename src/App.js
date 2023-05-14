@@ -19,6 +19,7 @@ function App() {
   const projects = [
     {
       title: 'Rekishi',
+      image: '/Rekishi Preview.jpeg',
       link: 'https://www.rekishi.io/',
       description:
         'An up-and-coming community for all things Anime and Comics!',
@@ -27,12 +28,19 @@ function App() {
       password: 'rekishi123',
     },
     {
-      title: 'Project 2',
-      description:
-        'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      title: 'Minesweeper',
+      image: '/Minesweeper Preview.jpeg',
+      link: 'https://minesweeper-1bfe6.web.app/',
+      description: 'My take on the Microsoft classic - Minesweeper.',
+      info: 'Built using pure JavaScript, HTML, CSS, and deployed with Firebase. It features recursive cell revealing and an immersive interface. Give it a go!',
     },
     {
-      title: 'Project 3',
+      title: 'StealthScribe',
+      description:
+        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    },
+    {
+      title: 'Foody',
       description:
         'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     },

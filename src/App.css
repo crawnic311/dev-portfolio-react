@@ -216,11 +216,16 @@
   border-radius: 5px;
 }
 
+.Project-Preview {
+  height: 200px;
+  width: 88%;
+}
+
 .Link {
   height: 200px;
   width: 88%;
   margin-top: 20px;
-  background-image: url('../public/Rekishi Preview.jpeg');
+  /* background-image: url('../public/Rekishi Preview.jpeg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }

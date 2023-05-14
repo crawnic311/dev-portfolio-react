@@ -216,7 +216,7 @@
 
 .project-transition-enter {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 
 .project-transition-enter-active {
@@ -234,6 +234,28 @@
   opacity: 0;
   transform: translateX(100%);
   transition: opacity 500ms, transform;
+}
+
+.project-transition-reverse-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.project-transition-reverse-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.project-transition-reverse-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.project-transition-reverse-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 500ms, transform 500ms;
 }
 
 .Project-Preview {

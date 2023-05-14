@@ -1,37 +1,18 @@
 import React, { useState } from 'react'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
-import './ProjectCarouselTest.css' // Create this CSS file for styling
-
-// const projects = [
-//   {
-//     id: 1,
-//     title: 'Project 1',
-//     description: 'Description for Project 1',
-//     image: 'project1.jpg',
-//   },
-//   {
-//     id: 2,
-//     title: 'Project 2',
-//     description: 'Description for Project 2',
-//     image: 'project2.jpg',
-//   },
-//   {
-//     id: 3,
-//     title: 'Project 3',
-//     description: 'Description for Project 3',
-//     image: 'project3.jpg',
-//   },
-// ]
 
 const ProjectCarouselTest = ({ projects }) => {
   const [currentProject, setCurrentProject] = useState(0)
+  const [isForward, setIsForward] = useState(true)
 
   const nextProject = () => {
     setCurrentProject((currentProject + 1) % projects.length)
+    setIsForward(true)
   }
 
   const prevProject = () => {
     setCurrentProject((currentProject - 1 + projects.length) % projects.length)
+    setIsForward(false)
   }
 
   return (
@@ -41,7 +22,9 @@ const ProjectCarouselTest = ({ projects }) => {
           <CSSTransition
             key={projects[currentProject].id}
             timeout={500}
-            classNames="project-transition"
+            classNames={
+              isForward ? 'project-transition' : 'project-transition-reverse'
+            }
           >
             <div className="Project">
               <a
